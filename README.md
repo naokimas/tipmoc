@@ -7,4 +7,6 @@ xxx
 
 ## XXX
 
-`explain_tipmoc.py`  Produce a schematic figure (figure 1 in the manuscript).
+`explain_tipmoc.py`  Produce a schematic figure (Figure 1 in the manuscript).
+
+`plot_hatuc_scatter_dw.py` Produce diagnostic scattergrams (Figure 3(a) and 3(b)). See the first few lines of the code for the usage.
