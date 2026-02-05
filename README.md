@@ -7,4 +7,4 @@ xxx
 
 ## XXX
 
-explain_tipmoc.py  Produce a schematic figure (figure 1 in the manuscript).
+`explain_tipmoc.py`  Produce a schematic figure (figure 1 in the manuscript).
