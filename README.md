@@ -9,11 +9,15 @@ xxx
 
 `explain_tipmoc.py`  Produce a schematic figure (Figure 1 in the manuscript).
 
-`plot_hatuc_scatter_dw.py` Produce diagnostic scattergrams (Figure 3(a) and 3(b)). See the first few lines of the code for the usage.
+`plot_hatuc_scatter_dw.py` Produce diagnostic scattergrams (Figures 3(a) and 3(b)). See the first few lines of the code for the usage.
 
 `bifu_pt_double_well.py` Determine the lower saddle-node bifurcation point of the double-well dynamical system. The obtained bifurcation point value (i.e., 3.079) is referred to in the manuscript.
 
 `bifu_pt_mutualistic.py` Determine the collapse point of the mutualistic-interaction dynamical system. The obtained collapse point value (i.e., 0.0470) is referred to in the manuscript.
+
+`sample-plot.py` Produce a figure showing $$\hat{V}$$ vs $$u$$ for three simulation runs with different colors (Figures 2(d) and 4).
+
+`sample-plot-using-given-data.py` Fine-tune the figure produced by ``sample-plot.py`.
 
 ## Data
 
