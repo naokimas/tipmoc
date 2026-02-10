@@ -56,8 +56,9 @@ This repository contains the implementation of **TIPMOC**, a framework for detec
 ### Numerically Simulated Data (in `data_for_fig/`)
 * **Figures 2(a, b):** `last_trial_raw_data_dw.csv`
 * **Figure 2(c):** `detection_summary-dw.csv`, `sample_variance_trials-dw.csv`
-* **Figure 3 & Table 1:** `all_runs_result_{dynamics}.csv`
-* **Figure 4:** `detection_summary-{model}.csv`, `sample_variance_trials-{model}.csv`
+* **Figure 3:** `all_runs_result_dw.csv`
+* **Figure 4:** `detection_summary-{overharvestingK10, lineargrazing, rosenzweig, mutualistic}.csv`, `sample_variance_trials-{overharvestingK10, lineargrazing, rosenzweig, mutualistic}.csv`
+* **Table 1:** `all_runs_result_{dynamics}.csv`
 *
 * # TIPMOC (TIpping via Power‑law fits and MOdel Comparison)
 
