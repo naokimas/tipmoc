@@ -45,6 +45,10 @@ xxx
 
 The following files contain numerically generated data used for generating the figures in the manuscript. They are in the data_for_fig folder.
 
+`last_trial_raw_data_dw.csv` is for Figures 2(a) and 2(b).
+
+`all_runs_result_{dw, dw_poisson, dw_poisson_colored_sigma005, overharvestingK10, lineargrazing, rosenzweig, mutualistic, ou, overharvestingK2}.csv` are for Table 1. `all_runs_result_dw.csv` is also for Figure 3.
+
 `detection_summary-dw.csv` and `sample_variance_trials-dw.csv` are for Figure 2(c).
 
 `detection_summary-{overharvestingK10, lineargrazing, rosenzweig, mutualistic}.csv` and `sample_variance_trials-{overharvestingK10, lineargrazing, rosenzweig, mutualistic}.csv` are for Figure 4.
