@@ -13,6 +13,8 @@ xxx
 
 `bifu_pt_double_well.py` Determine the lower saddle-node bifurcation point of the double-well dynamical system. The obtained bifurcation point value (i.e., 3.079) is referred to in the manuscript.
 
+`bifu_pt_mutualistic.py` Determine the collapse point of the mutualistic-interaction dynamical system. The obtained collapse point value (i.e., 0.0470) is referred to in the manuscript.
+
 ## Data
 
 `LFR.csv` The LFT network used in the simulation of the mutualistic-interaction dynamics. This network is identical to the one used in [Maclaren, Barzel & Masuda, Nature Communications, 2025](https://doi.org/10.1038/s41467-025-64975-x)
