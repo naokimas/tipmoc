@@ -1,5 +1,66 @@
 # TIPMOC (TIpping via Power‑law fits and MOdel Comparison)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+This repository contains the implementation of **TIPMOC**, a framework for detecting tipping points using power-law fits and model comparison. It includes all code necessary to reproduce the figures and tables presented in the manuscript.
+
+> **Citation:** > Author names. (Year). *Paper Title*. Journal Name. [DOI link]
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+* Python 3.x
+* Required libraries: `numpy`, `pandas`, `matplotlib`, `scipy`
+
+---
+
+## 🛠 Code Reference
+
+### Core TIPMOC Functions
+| File | Description |
+| :--- | :--- |
+| `fit_powerlaw.py` | Fits the specific power-law diverging function to a sequence of ($u$, $\hat{V}$). |
+| `delta_aicc.py` | Computes $\Delta \text{AIC}_{\text{c}}$ (difference between linear and power-law fits). |
+
+### Simulation Runners
+| File | System / Model |
+| :--- | :--- |
+| `run_double_well.py` | Double-well dynamical system. |
+| `run_over_harvesting.py` | Over-harvesting models (Kefi et al., 2013). |
+| `run_mutualistic.py` | Mutualistic-interaction model on a network. |
+| `run_ou.py` | Ornstein-Uhlenbeck process. |
+| `test_tipmoc_100_1.py` | Batch runner for Figures 2(a), 2(b) and Table 1. |
+
+### Visualization & Analysis
+| File | Figure Produced |
+| :--- | :--- |
+| `explain_tipmoc.py` | Schematic (Figure 1). |
+| `one_run_plot_using_given_data.py` | Fine-tuned Figures 2(a) and 2(b). |
+| `sample-plot-using-given-data.py` | Fine-tuned Figures 2(c) and 4. |
+| `plot_hatuc_scatter_dw.py` | Diagnostic scattergrams (Figures 3(a) and 3(b)). |
+| `diagnostic_analysis.py` | Summary statistics for Table 1. |
+
+### Auxiliary Scripts
+* `bifu_pt_double_well.py`: Determines bifurcation point (3.079) for the double-well system.
+* `bifu_pt_mutualistic.py`: Determines collapse point (0.0470) for the mutualistic system.
+
+---
+
+## 📊 Data Files
+
+### Network Data
+* `LFR.csv`: LFT network used in mutualistic-interaction simulations. Ref: [Maclaren et al. (2023)](https://doi.org/10.1098/rsif.2022.0743).
+
+### Numerically Simulated Data (in `data_for_fig/`)
+* **Figures 2(a, b):** `last_trial_raw_data_dw.csv`
+* **Figure 2(c):** `detection_summary-dw.csv`, `sample_variance_trials-dw.csv`
+* **Figure 3 & Table 1:** `all_runs_result_{dynamics}.csv`
+* **Figure 4:** `detection_summary-{model}.csv`, `sample_variance_trials-{model}.csv`
+*
+* # TIPMOC (TIpping via Power‑law fits and MOdel Comparison)
+
 This repository lists the code to run TIPMOC, including the code that is necessary to produce the figures and table in the paper.
 When you use the code, please cite the following paper:
 
@@ -11,7 +72,7 @@ xxx
 
 `test_tipmoc_100_1.py` Run TIPMOC arbitrarily many times and generate data for Figures 2(a) and 2(b) and Table 1.
 
-`run_double_well.py` Run the double-well dynamical system and return a sequence of ($$u$$, $$\hat{V}$$).
+`run_double_well.py` Run the double-well dynamical system and return a sequence of ($u$, $\hat{V}$).
 
 `run_over_harvesting.py` Run the over-harvesting models in Kefi et al., Oikos (2013) and return a sequence of ($$u$$, $$\hat{V}$$).
 
@@ -19,7 +80,7 @@ xxx
 
 `run_ou.py` Same for the Ornstein-Uhlenbeck process.
 
-`delta_aicc.py` Compute $$\Delta \text{AIC}_{\text{c}}$$, or the difference between AIC$$_{\text{c}}$$ for the linear and power-law fits, given a sequence of ($$u$$, $$\hat{V}$$). This function is part of TIPMOC.
+`delta_aicc.py` Compute $\Delta \text{AIC}_{\text{c}}$, or the difference between $\text{AIC}_{\text{c}}$ for the linear and power-law fits, given a sequence of ($$u$$, $$\hat{V}$$). This function is part of TIPMOC.
 
 `fit_powerlaw.py` Fit the specific power-law diverging function to a give sequene of ($$u$$, $$\hat{V}$$). This function is part of TIPMOC.
 
