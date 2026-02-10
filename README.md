@@ -4,7 +4,7 @@
 
 This repository contains the implementation of **TIPMOC**, a method for detecting tipping points using power-law fits and model comparison. It includes all code necessary to reproduce the figures and tables presented in the manuscript.
 
-> **Citation:** > Author names. (Year). *Paper Title*. Journal Name. [DOI link]
+> **Citation:** > Naoki Masuda. (2026). *Detecting and forecasting tipping points from sample variance alone*. [arXiv:2602.xxxxx](https://arXiv.org/2602.xxxxx)
 
 ---
 
