@@ -28,7 +28,7 @@ This repository contains the implementation of **TIPMOC**, a method for detectin
 | File | System / Model |
 | :--- | :--- |
 | `run_double_well.py` | Double-well dynamical system. |
-| `run_over_harvesting.py` | Over-harvesting models (Kefi et al., 2013). |
+| `run_over_harvesting.py` | Over-harvesting models ([Kefi et al., 2013](https://doi.org/10.1111/j.1600-0706.2012.20838.x)). |
 | `run_mutualistic.py` | Mutualistic-interaction model on a network. |
 | `run_ou.py` | Ornstein-Uhlenbeck process. |
 | `test_tipmoc_100_1.py` | Batch runner to produce data for Figures 2(a), 2(b), and Table 1. |
