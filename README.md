@@ -25,7 +25,7 @@ xxx
 
 ## Network data
 
-`LFR.csv` The LFT network used in the simulation of the mutualistic-interaction dynamics. This network is identical to the one used in [Maclaren, Barzel & Masuda, Nature Communications, 2025](https://doi.org/10.1038/s41467-025-64975-x)
+`LFR.csv` The LFT network used in the simulation of the mutualistic-interaction dynamics. This network is identical to the one used in [Maclaren, Kundu & Masuda, Journal of the Royal Society Interface, 2023]([https://doi.org/10.1038/s41467-025-64975-x](https://doi.org/10.1098/rsif.2022.0743))
 
 # Numerically simulated data
 
