@@ -57,7 +57,8 @@ This repository contains the implementation of **TIPMOC**, a framework for detec
 * **Figures 2(a, b):** `last_trial_raw_data_dw.csv`
 * **Figure 2(c):** `detection_summary-dw.csv`, `sample_variance_trials-dw.csv`
 * **Figure 3:** `all_runs_result_dw.csv`
-* **Figure 4:** `detection_summary-{overharvestingK10, lineargrazing, rosenzweig, mutualistic}.csv`, `sample_variance_trials-{overharvestingK10, lineargrazing, rosenzweig, mutualistic}.csv`
+* **Figure 4:** `detection_summary-{overharvestingK10, lineargrazing, rosenzweig, mutualistic}.csv`,
+*  `sample_variance_trials-{overharvestingK10, lineargrazing, rosenzweig, mutualistic}.csv`
 * **Table 1:** `all_runs_result_{dynamics}.csv`
 *
 * # TIPMOC (TIpping via Power‑law fits and MOdel Comparison)
@@ -102,18 +103,3 @@ xxx
 ## Network data
 
 `LFR.csv` The LFT network used in the simulation of the mutualistic-interaction dynamics. This network is identical to the one used in [Maclaren, Kundu & Masuda, Journal of the Royal Society Interface, 2023]([https://doi.org/10.1038/s41467-025-64975-x](https://doi.org/10.1098/rsif.2022.0743))
-
-# Numerically simulated data
-
-The following files contain numerically generated data used for generating the figures in the manuscript. They are in the data_for_fig folder.
-
-`last_trial_raw_data_dw.csv` is for Figures 2(a) and 2(b).
-
-`all_runs_result_{dw, dw_poisson, dw_poisson_colored_sigma005, overharvestingK10, lineargrazing, rosenzweig, mutualistic, ou, overharvestingK2}.csv` are for Table 1. `all_runs_result_dw.csv` is also for Figure 3.
-
-`detection_summary-dw.csv` and `sample_variance_trials-dw.csv` are for Figure 2(c).
-
-`detection_summary-{overharvestingK10, lineargrazing, rosenzweig, mutualistic}.csv` and `sample_variance_trials-{overharvestingK10, lineargrazing, rosenzweig, mutualistic}.csv` are for Figure 4.
-
-
-
