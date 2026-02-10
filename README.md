@@ -15,7 +15,7 @@ xxx
 
 `run_over_harvesting.py` Run the over-harvesting models in Kefi et al., Oikos (2013) and return a sequence of ($$u$$, $$\hat{V}$$).
 
-`run_mutualistic.py`` Same for the mutualistic-interaction model on the network.
+`run_mutualistic.py` Same for the mutualistic-interaction model on the network.
 
 `run_ou.py`` Same for the Ornstein-Uhlenbeck process.
 
