@@ -17,7 +17,7 @@ xxx
 
 `run_mutualistic.py` Same for the mutualistic-interaction model on the network.
 
-`run_ou.py`` Same for the Ornstein-Uhlenbeck process.
+`run_ou.py` Same for the Ornstein-Uhlenbeck process.
 
 `delta_aicc.py` Compute $$\Delta \text{AIC}_{\text{c}}$$, or the difference between AIC$$_{\text{c}}$$ for the linear and power-law fits, given a sequence of ($$u$$, $$\hat{V}$$). This function is part of TIPMOC.
 
